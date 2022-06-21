@@ -2,17 +2,17 @@
 ' OUTPUT:      displays a list of invalid (file.attributes 1,2,4,16) and non Excel files
 ' PURPOSE:     quickly open the current period journals and monitors folder contents
 
-' File.Attributes (enum)
-' Constant		  Value	  Description
-' Normal		    0		    Normal file. No attributes are set.
-' ReadOnly		  1		    Read-only file. Attribute is read/write.
-' Hidden		    2		    Hidden file. Attribute is read/write.
-' System		    4		    System file. Attribute is read/write.
-' Volume		    8		    Disk drive volume label. Attribute is read-only.
-' Directory	    16  	  Folder or directory. Attribute is read-only.
-' Archive		    32		  File has changed since last backup. Attribute is read/write.
-' Alias		      1024	  Link or shortcut. Attribute is read-only.
-' Compressed	  2048	  Compressed file. Attribute is read-only.
+' File.Attributes
+' 	Constant		    Value	    Description
+' 	Normal			    0		    Normal file. No attributes are set.
+' 	ReadOnly		    1		    Read-only file. Attribute is read/write.
+' 	Hidden			    2		    Hidden file. Attribute is read/write.
+' 	System			    4		    System file. Attribute is read/write.
+' 	Volume			    8		    Disk drive volume label. Attribute is read-only.
+' 	Directory	    	    16		    Folder or directory. Attribute is read-only.
+' 	Archive			    32		    File has changed since last backup. Attribute is read/write.
+' 	Alias		      	    1024	    Link or shortcut. Attribute is read-only.
+' 	Compressed	   	    2048	    Compressed file. Attribute is read-only.
 
 Option Explicit 
 
